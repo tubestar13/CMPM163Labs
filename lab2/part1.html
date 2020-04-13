@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Lab2 : Intro to Three.js Part 1</title>
+		<style>
+			body { margin: 0; }
+			canvas { display: block; }
+		</style>
+	</head>
+	<body>
+		<script src="../three.js-master/build/three.js"></script>
+		<script>
+			// Our Javascript will go here.
+			//Add the basic three.js elements in order to render a scene
+			//A scene, camera, and renderer
+			var scene = new THREE.Scene();
+			var camera = new THREE.PerspectiveCamera(75,
+				 window.innerWidth/window.innerHeight, 0.1, 1000);
+			var renderer = new THREE.WebGLRenderer();
+			renderer.setSize(window.innerWidth, window.innerHeight);
+			document.body.appendChild(renderer.domElement);
+
+			//add the cube using Three.js's geometry, materials, and meshes.
+			var geometry = new THREE.BoxGeometry();
+			var material = new THREE.MeshBasicMaterial( {color: 0xffff00} );
+			var cube = new THREE.Mesh(geometry, material);
+			scene.add(cube);
+			camera.position.z = 5; //moves camera toward the viewer
+
+			//add two more cubes
+			var geometry2 = new THREE.BoxGeometry();
+			material = new THREE.MeshBasicMaterial({color: 0xff00ff});
+			var cube2 = new THREE.Mesh(geometry2, material);
+			scene.add(cube2);
+			geometry2.translate(-2,0,0);
+
+			var geometry3 = new THREE.BoxGeometry();
+			material = new THREE.MeshBasicMaterial({color: 0x00ffff});
+			var cube3 = new THREE.Mesh(geometry3, material);
+			scene.add(cube3);
+			geometry3.translate(2,0,0);
+
+			//render the cube with the renderer
+			function animate() {
+				requestAnimationFrame(animate);
+				renderer.render(scene, camera);
+				//add rotation to the cube
+				geometry.rotateX(0.01);
+				geometry.rotateY(0.01);
+				geometry2.rotateY(0.05);
+				geometry2.rotateZ(0.05);
+				geometry3.rotateY(0.05);
+				geometry3.rotateZ(-0.05);
+			}
+			animate();
+		</script>
+	</body>
+</html>
