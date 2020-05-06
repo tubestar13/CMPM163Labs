@@ -32,3 +32,8 @@ The cube above the center-most cube is texture 191 with the normal texture
 The right-most cube is texture 165 using a separate vertex shader and fragment shader
 
 The cube above the right-most cube is a texture 176 tiled into a 2x2 grid. I managed this by scaling the tile down by multiplying it by a vec2(2), then essentially grabbing the portion of the texture that I wanted and pasting them to the other three spaces of the cube by moving texture by either a vec2(1), vec2(1,0), or vec2(0,1) since the texture was scaled by a vec2(2).
+
+## Lab 5
+Video Link: https://drive.google.com/open?id=1X6srcxjrFje3E1IAuJ5PoOdigkglOaBZ
+
+The things that I changed from the tutorial was the particle color to be Red. I also applied the particle systems symmetrically. The additional modification to the game that I made was making the track longer, and adding a shortcut ramp to avoid having to go the long way down through the other spiral. 
