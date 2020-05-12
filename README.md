@@ -45,9 +45,9 @@ A directional light behaves like the sun and can be thought of light sources tha
 Area lights are defined by either a rectangle or disc that shines light in is a uniform direction across its surface area in only one direction. 
 
 I made my material by using the standard shader and moving the metallic and smoothness sliders until I achieved my desired effect of an aluminum-like material on soda cans.
-![](lab6/MyMaterial)
-![](lab6/MetallicMaterial)
+![](lab6/MyMaterial.png)
+![](lab6/MetallicMaterial.png)
 
 For the textures I just grabbed 2 different textures from the Unity Asset store. The ones that I used for the walls has the color map, normal map, occulsion map, and a height map for full details. The one that I used for the floor just has a color map without any normal maps. 
 
-![](lab6/myScene)
+![](lab6/myScene.png)
