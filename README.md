@@ -37,3 +37,17 @@ The cube above the right-most cube is a texture 176 tiled into a 2x2 grid. I man
 Video Link: https://drive.google.com/open?id=1X6srcxjrFje3E1IAuJ5PoOdigkglOaBZ
 
 The things that I changed from the tutorial was the particle color to be Red. I also applied the particle systems symmetrically. The additional modification to the game that I made was making the track longer, and adding a shortcut ramp to avoid having to go the long way down through the other spiral. 
+
+## Lab 6
+A point light is a point in space that sends light out in all directions equally.
+A spot light is similar to a point light but has a specified location and range over which the light falls off with a cone-shaped region of illumination. 
+A directional light behaves like the sun and can be thought of light sources that exist infinitely far away and always shines in the same direction without diminishing, as it is infinitely far away.
+Area lights are defined by either a rectangle or disc that shines light in is a uniform direction across its surface area in only one direction. 
+
+I made my material by using the standard shader and moving the metallic and smoothness sliders until I achieved my desired effect of an aluminum-like material on soda cans.
+![](lab6/MyMaterial)
+![](lab6/MetallicMaterial)
+
+For the textures I just grabbed 2 different textures from the Unity Asset store. The ones that I used for the walls has the color map, normal map, occulsion map, and a height map for full details. The one that I used for the floor just has a color map without any normal maps. 
+
+![](lab6/myScene)
