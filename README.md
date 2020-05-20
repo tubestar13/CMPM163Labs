@@ -52,3 +52,13 @@ I made my material by using the standard shader and moving the metallic and smoo
 For the textures I just grabbed 2 different textures from the Unity Asset store. The ones that I used for the walls has the color map, normal map, occulsion map, and a height map for full details. The one that I used for the floor just has a color map without any normal maps. 
 
 ![](lab6/myScene.png)
+
+## Lab 7 
+
+video Link: https://drive.google.com/open?id=1FO-yD7MjAQgUypvi-lSSHF6CJ91oo0Br
+
+My partner Quan Gao completed Part 2 of the lab.
+
+The part he found most challenging was placing the objects. They wanted to make sure that what they were creating was similar to something that anyone would be able to see in the real world and something that just looked good with the right lighting angle.
+
+The most interesting part for them was the feeling of moving the scene around with the camera. Being able to explore their creation from different angles and views made it feel like they were immersed into a different world, especially after they added their custom skyline clouds.
