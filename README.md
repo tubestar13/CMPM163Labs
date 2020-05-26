@@ -68,8 +68,8 @@ The most interesting part for them was the feeling of moving the scene around wi
 ![](lab8/tutorial.png)
 Tutorial
 
-![](lab8/Inpiration.png)
-![](lab8/CityLandscape)
+![](lab8/Inspiration.png)
+![](lab8/CityLandscape.png)
 My inspiration was an aerial view of Korea's residential apartment complexes. The landscape inspired changes from the photo include the rotation of the buildings themselves. As seen in the picture, some of the buildings are rotated instead of being built in a grid-like structure to space out the buildings while saving some space. I replicated that by rotating the Quaternion about the y-axis. Another key feature in the landscape is the water. Despite how urban Korea is, the landscape contains copious amounts of large patches of green landscapes and large bodies of water (though the picture does not contain a body of water, it is commonplace to see in most parts of Korea). That is why I also added the water shader from the previous assignment. 
 
 My Partner did part 2 of the lab. They used randomly generated cubes with varying height and assigned a texture to them based on the height. They also just used mountain ranges and water from the previous lab to add to the skyline in the background. They used two different lighting sources, one to act as a global directional light like a sun, and another to act as sort of an ambient light. They also added fog images spread across unevenly across the map. My partner made a pretty good landscape, but not enough to teach me anything just by looking at it. Not much was said about how he went about generating the heights of the cubes, or how he arranged them. 
